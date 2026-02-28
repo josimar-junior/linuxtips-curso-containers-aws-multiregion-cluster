@@ -14,6 +14,10 @@ output "lb_internal_listener" {
   value = aws_ssm_parameter.lb_internal_listener.id
 }
 
+output "lb_internal_listener_https" {
+  value = aws_ssm_parameter.lb_internal_listener_https.id
+}
+
 output "service_discovery_cloudmap_name" {
   value = aws_ssm_parameter.service_discovery_cloudmap_name.id
 }

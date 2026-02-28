@@ -1,2 +1,5 @@
-region       = "us-east-1"
-project_name = "sales-cluster"
+project_name        = "sales-cluster"
+region_primary      = "us-east-1"
+region_secondary    = "sa-east-1"
+acm_dns_name        = ""
+route53_hosted_zone = ""

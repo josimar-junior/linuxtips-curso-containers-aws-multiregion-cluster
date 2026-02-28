@@ -12,3 +12,5 @@ ssm_public_subnets = [
   "/linuxtips-multiregion/vpc/public/sa-east-1b",
   "/linuxtips-multiregion/vpc/public/sa-east-1c"
 ]
+
+acm_dns_certs = []

@@ -22,6 +22,12 @@ resource "aws_ssm_parameter" "lb_internal_listener" {
   value = module.cluster.lb_internal_listener
 }
 
+resource "aws_ssm_parameter" "lb_internal_listener_https" {
+  type  = "String"
+  name  = format("/%s/lb/internal/https/listener", var.project_name)
+  value = module.cluster.lb_internal_listener_https
+}
+
 resource "aws_ssm_parameter" "service_discovery_cloudmap_name" {
   type  = "String"
   name  = format("/%s/service-discovery/cloudmap/name", var.project_name)
