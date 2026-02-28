@@ -19,6 +19,6 @@ variable "ssm_public_subnets" {
 }
 
 variable "acm_dns_certs" {
-  type = list(string)
-  default = [ ]
+  type    = list(string)
+  default = []
 }

@@ -30,7 +30,7 @@
 
 # resource "aws_acm_certificate_validation" "secondary" {
 #   provider = aws.secondary
-  
+
 #   certificate_arn = aws_acm_certificate.main.arn
 #   validation_record_fqdns = [ for record in aws_aws_route53_record.main : record.fqdn ]
 # }
